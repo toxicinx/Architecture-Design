@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Flex, Text, Box, Link } from '@chakra-ui/react';
 import { CloseIcon, HamburgerIcon } from '@chakra-ui/icons';
+import Hero from './Hero';
 
 const MenuItem = ({ children, isLast, to = '/' }) => {
     return(
@@ -31,7 +32,7 @@ const Header = (props) => {
 
     return(
         <Flex
-            mb={2}
+            mb={6}
             p={4}
             as="nav"
             align="center"
